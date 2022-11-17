@@ -14,7 +14,7 @@ const styles = {
 function App() {
   return (
     <div style={styles.PAGE_CONTENT}>
-      <Title name={"Artifactory Catalog"}></Title>
+      <Title name={"Package Registry"}></Title>
       <List></List>
     </div>
   );
