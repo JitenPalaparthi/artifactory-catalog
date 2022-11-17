@@ -1,15 +1,41 @@
+ .divStyle {
+  margin: 5px 5px 5px 5px;
+  border: 2px solid grey;
+  padding: 2px 5px;
+  background-color: #f9f9fa;
+}   
+
+ .genDiv{
+  display: block;
+  padding: 5px 5px 12px 5px;
+}
+
+ .spanBodyStyle {
+  fontSize: 15px;
+  textAlign: left;
+}
+.spanHeaderStyle {
+  fontSize: 15px;
+  fontWeight: bold;
+  float: left;
+  width: 300px;
+  padding: 5px 5px 12px 5px;
+}
+
+.summaryStyle{
+  fontSize: 15px;
+  fontWeight: bold;
+  padding: 5px 5px 12px 5px;
+}
    .historyBodyStyle {
     fontSize: 15px;
-    padding: 0px 0px 12px;
+    padding: 5px 5px 12px 5px;
     text-overflow:ellipsis;
-    background-color:black;
-    color:white;
   }
-
   .historyBodyStyle:hover{
     fontSize: 15px;
-    padding: 0px 0px 12px;
-    background-color:lightgray;
+    padding: 5px 5px 12px 5px;
+    background-color:grey;
     color: white;
     text-overflow:ellipsis;
   }
