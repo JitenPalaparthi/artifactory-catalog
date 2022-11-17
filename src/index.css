@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+  Intuit bootstrap overrides here
+  conforms to standards at http://intuitbrand.com
+*/
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT Regular';
+    font-style: normal;
+    src: url("./fonts/AvenirNextforINTUIT-Regular.otf");
+}
+@font-face {
+    font-family: 'AvenirNextforINTUIT Bold';
+    font-style: normal;
+    src: url("./fonts/AvenirNextforINTUIT-Bold.otf");
+}
+@font-face {
+    font-family: 'AvenirNextforINTUIT Thin';
+    font-style: normal;
+    src: url("./fonts/AvenirNextforINTUIT-Thin.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body, #root {
+    height: 100%
+}
+
+body {
+    background-color: #ffffff !important;
+    min-height: 100%;
+}
+
+.gray-on-hover:hover {
+    background-color: #f0f0f0;
+}
+
+.ui.labeled.icon.button, .ui.labeled.icon.buttons .button {
+    position: relative;
+    padding-left: 3.5em!important;
+    padding-right: 1.3em!important;
 }
